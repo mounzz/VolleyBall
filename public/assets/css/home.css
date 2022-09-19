@@ -1,0 +1,73 @@
+.containerGen{
+    background-color:  rgb(18, 16, 16);
+    color: rgba(180, 180, 180, 0.863);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    background-image: url('/assets/img/bgEquipeListe.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titreheader{
+    font-size: 56px;
+    color: rgba(180, 180, 180, 0.863);
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.titreheader::after{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: .5rem;
+    background-color: rgba(180, 180, 180, 0.863);
+    left: 25%;
+    top: 5rem;
+    transition: width .4s ease-in-out,
+                left .4s ease-in-out;
+}
+
+.titreheader:hover::after{
+    width: 100%;
+    left: 0%;
+}
+
+.equipesRemplies, .Europe, .HorsEurope, .AvecEquipe, .SansEquipe{
+    padding: 2rem;
+
+}
+
+.ImageHome1{
+    width: 100%;
+    background-image: url('/assets/img/bgVolley.avif');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    height: 20rem;
+    background-attachment: fixed;
+}
+
+
+.ImageHome2{
+    width: 100%;
+    background-image: url('/assets/img/imgProfilJoueur.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    height: 20rem;
+    background-attachment: fixed;
+}

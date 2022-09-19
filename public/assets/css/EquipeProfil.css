@@ -1,0 +1,12 @@
+.containerEquipeProfil{
+    background-image: url('/assets/img/bgVolley.avif');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

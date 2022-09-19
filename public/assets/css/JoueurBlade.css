@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerJoueurs{
+    background-image: url('/assets/img/bgJoueur.webp');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.glass{
+    backdrop-filter: blur(.5rem);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formJoueurs{
+    backdrop-filter: blur(.7rem);
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: rgba(48, 48, 48, 0.447);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: .3rem;
+}
+.formJoueurs div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.formJoueurs input{
+    color:  rgba(180, 180, 180, 0.525);
+    height: 2.5rem;
+    padding: .5rem;
+    width: 17rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(227, 128, 29, 0.406);
+    transition: border-bottom 400ms ease-in-out;
+}
+
+.formJoueurs input:focus{
+    color:  rgba(180, 180, 180, 0.525);
+    outline: none;
+    border-bottom: 3px solid rgba(227, 128, 29, 0.863);
+}
+
+.formJoueurs h1{
+    color:  rgba(180, 180, 180, 0.863);
+    font-weight: 200;
+    text-transform: lowercase;
+}
+
+.formJoueurs select{
+    color:  rgba(180, 180, 180, 0.525);
+    width: 93%;
+    height: 2.5rem;
+    padding: .5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(227, 128, 29, 0.406);
+    transition: border-bottom 400ms ease-in-out;
+}
+
+.formJoueurs select:focus{
+    outline: none;
+    border-bottom: 3px solid rgba(227, 128, 29, 0.863);
+}
+
+.formJoueurs button{
+    color:  rgba(227, 227, 227);
+    padding: .75rem 2rem;
+    background-color:  rgba(227, 128, 29, 0.863);
+    border: none;
+    text-transform: lowercase;
+    font-weight: 600;
+
+}
+
+.inputfile{
+    border:none!important;
+    background-color: rgba(249, 249, 249, 0.228)!important;
+    padding: 0!important;
+    height: auto!important;
+}
+
+.inputfile::-webkit-file-upload-button{
+    outline: none;
+    border: none!important;
+    background-color: rgba(227, 128, 29, 0.863);
+    padding: .5rem;
+    margin-right: 1rem;
+    color:  rgba(227, 227, 227);
+}

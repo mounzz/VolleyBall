@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 99999;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    list-style-type:none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:  rgba(180, 180, 180, 0.525);
+    position: relative;
+}
+
+.navbar ul li a::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color:rgba(180, 180, 180, 0.525);
+    bottom: 0px;
+    opacity: 0;
+    left: 0;
+    transition: .4s ease-in-out;
+}
+
+.navbar ul li a:hover::after {
+    height: 3px;
+    background-color:rgba(227, 128, 29, 0.863);
+    bottom: -4px;
+    opacity: 1;
+}

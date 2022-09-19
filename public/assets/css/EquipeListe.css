@@ -1,0 +1,67 @@
+.containerEquipeListe{
+    background-image: url('/assets/img/bgEquipeListe.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridEquipe{
+    display: grid;
+    grid-template-columns: repeat(7, .5fr);
+    gap:1rem;
+    width: 60%;
+    padding: 2rem;
+    margin-top: 4rem;
+    color:  rgba(180, 180, 180, 0.525);
+    background-color: rgba(24, 24, 24, 0.839);
+}
+
+.glassEquipe{
+    backdrop-filter: blur(.5rem);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenairInfos{
+    padding: 2rem;
+    width: 60%;
+    background-color: rgba(48, 48, 48, 0.447);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: .3rem;
+    color:  rgba(180, 180, 180, 0.525);
+    overflow: auto;
+    height: 35rem;
+}
+
+.contenuListe{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, .5fr);
+    gap:4rem;
+}
+
+.contenuListe div{
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contenuListe button {
+    color:  rgba(227, 227, 227);
+    padding: .75rem 2rem;
+    background-color:  rgba(227, 128, 29, 0.863);
+    border: none;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+

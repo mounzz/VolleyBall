@@ -1,0 +1,80 @@
+.containerInfosJoueurs{
+    background-image: url('/assets/img/bgListeJoueurs.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.containerInfosJoueurs h1{
+    text-align: center;
+    color:  rgba(180, 180, 180, 0.525);
+    font-weight: 200;
+}
+
+.glassListe{
+    backdrop-filter: blur(.5rem);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.InfosJoueurs{
+    position: relative;
+    backdrop-filter: blur(.7rem);
+    width: 17rem;
+    height: 15rem;
+    padding: 2rem;
+    background-color: rgba(48, 48, 48, 0.447);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:.7rem;
+}
+
+.InfosJoueurs div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+    color:  rgba(180, 180, 180, 0.525);
+}
+
+.imgJoueurListe{
+    width: 6rem;
+    height: 6rem;
+    padding: .5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgba(227, 128, 29, 0.863);
+}
+
+.InfosJoueurs button{
+    color:  rgba(227, 227, 227);
+    padding: .5rem 1rem;
+    background-color:  rgba(227, 128, 29, 0.863);
+    border: none;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+.containerButtonListe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 2rem;
+    left: 13rem;
+}
+.containerButtonListe div{
+    display: flex;
+    justify-content: flex-start;
+}
